@@ -1,30 +1,30 @@
 export default function Hero() {
   return (
-    <section className="bg-gray-50">
+    <section className="bg-surface-muted">
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 py-20 lg:grid-cols-2 lg:py-28">
 
         {/* Left side */}
         <div>
-          <span className="rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-700">
+          <span className="rounded-full bg-primary-soft px-4 py-2 text-sm font-medium text-primary">
             Modern Web Development
           </span>
 
-          <h1 className="mt-6 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
+          <h1 className="mt-6 text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
             Build beautiful websites with
-            <span className="text-blue-600"> Tailwind CSS</span>
+            <span className="text-primary"> Tailwind CSS</span>
           </h1>
 
-          <p className="mt-6 max-w-xl text-lg leading-8 text-gray-600">
+          <p className="mt-6 max-w-xl text-lg leading-8 text-muted">
             Learn how to build responsive, modern and professional websites
             using Next.js and Tailwind CSS.
           </p>
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-            <button className="rounded-lg bg-blue-600 px-6 py-3 font-medium text-white transition hover:bg-blue-700">
+            <button className="rounded-lg bg-primary px-6 py-3 font-medium bg-primary transition hover:bg-primary-hover">
               Get Started
             </button>
 
-            <button className="rounded-lg border border-gray-300 px-6 py-3 font-medium text-gray-700 transition hover:bg-gray-100">
+            <button className="rounded-lg border border-border px-6 py-3 font-medium text-foreground transition hover:bg-surface-secondary">
               Learn More
             </button>
           </div>
@@ -33,24 +33,24 @@ export default function Hero() {
         {/* Right side */}
         <div className="rounded-3xl bg-blue-600 p-10 shadow-xl">
           <div className="rounded-2xl bg-white p-8">
-            <h2 className="text-2xl font-bold text-gray-900">
+            <h2 className="text-2xl font-bold text-foreground">
               Tailwind CSS
             </h2>
 
-            <p className="mt-3 text-gray-600">
+            <p className="mt-3 text-muted">
               Build interfaces quickly using utility classes.
             </p>
 
             <div className="mt-6 space-y-4">
-              <div className="rounded-xl bg-gray-100 p-4 text-gray-700">
+              <div className="rounded-xl bg-gray-100 p-4 text-foreground-secondary">
                 Responsive Design
               </div>
 
-              <div className="rounded-xl bg-gray-100 p-4 text-gray-700">
+              <div className="rounded-xl bg-gray-100 p-4 text-foreground-secondary">
                 Modern Layouts
               </div>
 
-              <div className="rounded-xl bg-gray-100 p-4 text-gray-700">
+              <div className="rounded-xl bg-gray-100 p-4 text-foreground-secondary">
                 Reusable Components
               </div>
             </div>
